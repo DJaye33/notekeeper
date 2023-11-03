@@ -1,16 +1,16 @@
 main {
-  padding: 0 2.6rem;
+  padding: 0 1.6rem;
 }
 
 /* Media Queries */
 @media (min-width: 800px) {
   main {
-    padding: var(--spacing-6);
+    padding: 0 2.4rem;
   }
 }
 
 @media (min-width: 920px) {
   main {
-    padding: var(--spacing-10);
+    padding: 0 4rem;
   }
 }
