@@ -1,0 +1,16 @@
+main {
+  padding: 0 2.6rem;
+}
+
+/* Media Queries */
+@media (min-width: 800px) {
+  main {
+    padding: var(--spacing-6);
+  }
+}
+
+@media (min-width: 920px) {
+  main {
+    padding: var(--spacing-10);
+  }
+}

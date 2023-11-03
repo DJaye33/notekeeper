@@ -159,7 +159,8 @@ html {
 
 body {
   font-family: var(--font-primary);
-  line-height: 1.5;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-title-small);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -177,6 +178,10 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 p,
